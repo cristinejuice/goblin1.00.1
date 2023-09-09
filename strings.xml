@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Goblin 1.00.1</string>
+    <string name="contentdesc">Content Description</string>
+
+    //Labels
+    <string name="accNum">Email</string>
+    <string name="accPass">Password</string>
+    <string name="gs_tv1">Let\'s get started</string>
+    <string name="gs_tv2">Stay thrifty with style</string>
+    <string name="gs_tv3">Budgeting Made Easy</string>
+
+    //Text Buttons
+    <string name="createAcc">Create Account?</string>
+    <string name="forgotMPIN">Forgot Password?</string>
+
+    //Text
+    <string name="gs_text1">Goblin is a budget management solution that helps you take control of your finances.</string>
+    <string name="gs_text2">Spend your money wisely and avoid unnecessary expenses.</string>
+    <string name="gs_text3">Enjoy our user-friendly interface and maximize your budgeting and saving experience.</string>
+
+</resources>
