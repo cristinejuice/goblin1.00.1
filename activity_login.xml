@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="59dp"
+        android:contentDescription="@string/contentdesc"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tvAccNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="253dp"
+        android:layout_marginEnd="115dp"
+        android:text="@string/accNum"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/tvAccNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="117dp"
+        android:text="@string/accPass"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+
+
+    <ImageButton
+        android:id="@+id/ibBiometrics"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="211dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/contentdesc"
+        android:padding="3dp"
+        app:srcCompat="@drawable/bio"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/ibPin"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="43dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/contentdesc"
+        android:padding="3dp"
+        app:srcCompat="@drawable/pin"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tvCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="650dp"
+        android:clickable="true"
+        android:onClick="onTextViewClick"
+        android:text="@string/createAcc"
+        android:textColor="@color/green"
+        tools:ignore="KeyboardInaccessibleWidget,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="60dp"
+        android:clickable="true"
+        android:text="@string/forgotMPIN"
+        android:textColor="@color/green"
+        tools:ignore="KeyboardInaccessibleWidget,RelativeOverlap,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="293dp"
+        android:layout_marginEnd="53dp"
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/lightergreen"
+        android:textSize="14sp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="53dp"
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/lightergreen"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+</RelativeLayout>
